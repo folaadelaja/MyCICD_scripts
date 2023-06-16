@@ -37,43 +37,43 @@ apt-get update
 #upgrading linux
 printf "${YELOW}upgrading OS......\n${NC}"
 sleep 5
-apt-get upgrade -y
+sudo apt-get upgrade -y
 #Intall wine for linux
 printf "${YELOW}Installing wine.........\n${NC}"
 sleep 5
-apt-get install wine -y
+sudo apt-get install wine -y
 #Install SSH
 printf "${YELOW}Installing ssh.........\n${NC}"
 sleep 5
-apt-get install ssh -y
+sudo apt-get install ssh -y
 #Install play on linux
 printf "${YELOW}Installing playonlinux......\n${NC}"
 sleep 5
-apt-get install playonlinux -y
+sudo apt-get install playonlinux -y
 #Installing XRDP
 printf "${YELOW}Installing remote Desktop\n${NC}"
 sleep 5
-apt-get install xrdp -y
+sudo apt-get install xrdp -y
 #Installing qbittorrent
 printf "${YELOW}Installing qbittorrent..\n${NC}"
 sleep 5
-apt-get install qbittorrent -y
+sudo apt-get install qbittorrent -y
 #install virtual box
 printf "${YELOW}Installing virtualbox.....\n${NC}"
 sleep 5
-apt install virtualbox -y
+sudo apt install virtualbox -y
 #install Telegram
 printf "${YELOW}Installing Telegram Desktop.....\n${NC}"
 sleep 5
-apt install telegram-desktop -y
+sudo apt install telegram-desktop -y
 #install chromium
 printf "${YELOW}Installing Chromium......\n${NC}"
 sleep 5
-apt install chromium-browser -y
+sudo apt install chromium-browser -y
 #Install Ansible
 printf "${YELOW}Installing Ansible latest....\n${NC}"
 sleep 5
-apt install ansible -y
+sudo apt install ansible -y
 printf "${YELOW}Installing Screenhot app....\n${NC}"
 sleep 5
 sudo apt install shutter -y
