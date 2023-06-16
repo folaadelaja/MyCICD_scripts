@@ -1,2 +1,0 @@
-#Script to install bunch of apps at fresh debian install
-git clone https://github.com/folaadelaja/My-script.git && cd My-script && chmod +x Folascript.sh  && ./Folascript.sh
